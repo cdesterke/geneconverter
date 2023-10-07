@@ -1,0 +1,15 @@
+Package: geneconverter
+Type: Package
+Title: geneconverter R-package based on Ensembl-Biomart database version 110
+Version: 1.1.0
+Author: Christophe Desterke
+Maintainer: The package maintainer <christophe.desterke@gmail.com>
+Description: geneconverter package allow to convert gene symbols or ensembl identifiers
+        in orthologues between Homo sapiens and Mus musculus species.
+        Orthologues are based on Ensembl-Biomart database version 110
+License: GNU
+Imports: dplyr
+Dependency: R >= 4.2.1
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
