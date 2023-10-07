@@ -27,3 +27,18 @@ gene.mm.to.hs(mouse.gene)
 ![res](https://github.com/cdesterke/geneconverter/blob/main/02.png)
 
 
+### convert human Ensembl identifiers in murine ones: "ensembl.hs.to.mm"
+```r
+library(geneconverter)
+human.ensembl<-c("ENSG00000157404","ENSG00000133116","ENSG00000122025","ENSG00000107562","ENSG00000174059")
+ensembl.hs.to.mm(human.ensembl)
+```
+![res](https://github.com/cdesterke/geneconverter/blob/main/03.png)
+
+### convert human Ensembl identifiers in murine ones: "ensembl.mm.to.hs"
+```r
+library(geneconverter)
+mouse.ensembl<-c("ENSMUSG00000005672","ENSMUSG00000058488","ENSMUSG00000061353","ENSMUSG00000016494")
+ensembl.mm.to.hs(mouse.ensembl)
+```
+![res](https://github.com/cdesterke/geneconverter/blob/main/04.png)
