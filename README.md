@@ -17,3 +17,13 @@ human.gene<-c("FLT3","CXCR4","CXCR7","CD34","KIT","KL","CXCL12")
 gene.hs.to.mm(human.gene)
 ```
 ![res](https://github.com/cdesterke/geneconverter/blob/main/01.png)
+
+### convert murine gene symbol in human gene symbol: "gene.mm.to.hs"
+```r
+library(geneconverter)
+mouse.gene<-c("Kit","Sca","Kl","Cd34","Flt3","Cxcl12")
+gene.mm.to.hs(mouse.gene)
+```
+![res](https://github.com/cdesterke/geneconverter/blob/main/02.png)
+
+
