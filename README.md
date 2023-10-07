@@ -16,3 +16,4 @@ library(geneconverter)
 human.gene<-c("FLT3","CXCR4","CXCR7","CD34","KIT","KL","CXCL12")
 gene.hs.to.mm(human.gene)
 ```
+![res](https://github.com/cdesterke/geneconverter/blob/main/01.png)
